@@ -44,6 +44,7 @@
     <string name="navbar_title">Navigation bar</string>
     <string name="volume_keys_title">Volume keys</string>
     <string name="ambient_display_custom_title">Ambient Display</string>
+    <string name="security_title">Security</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -477,5 +478,9 @@
     <string name="custom_timeout_summary_2hours">2 hours</string>
     <string name="custom_timeout_summary_4hours">4 hours</string>
     <string name="custom_timeout_summary_8hours">8 hours</string>
+
+    <!-- Ignore window secure -->
+    <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
+    <string name="laboratory_ignore_window_secure_summary">Removes screenshots and screenrecords limits for all applications.</string>
 
 </resources>

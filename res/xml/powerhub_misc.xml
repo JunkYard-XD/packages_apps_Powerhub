@@ -49,5 +49,17 @@
         android:title="@string/notification_sound_vib_screen_on_title"
         android:summary="@string/notification_sound_vib_screen_on_summary"
         android:defaultValue="true" />
+
+    <PreferenceCategory
+        android:key="security_title"
+        android:title="@string/security_title">
+
+        <com.voltage.support.preferences.SecureSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/laboratory_ignore_window_secure_title"
+            android:summary="@string/laboratory_ignore_window_secure_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 		
 </PreferenceScreen>
