@@ -483,4 +483,8 @@
     <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
     <string name="laboratory_ignore_window_secure_summary">Removes screenshots and screenrecords limits for all applications.</string>
 
+    <!-- No storage restrict -->
+    <string name="no_storage_restrict_title">No storage restrict</string>
+    <string name="no_storage_restrict_summary">Remove the restriction when selecting folders through Storage Access Framework.</string>
+
 </resources>
