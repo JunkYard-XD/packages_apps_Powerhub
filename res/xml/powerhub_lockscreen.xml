@@ -75,6 +75,17 @@
             android:persistent="true" />
     </PreferenceCategory>
 	
+         <!-- Ambient Display -->
+         <Preference
+            android:key="ambient_display_custom"
+            android:persistent="false"
+            android:title="@string/ambient_display_custom_title">
+            <intent
+               android:action="android.intent.action.MAIN"
+               android:targetPackage="com.custom.ambient.display"
+               android:targetClass="com.custom.ambient.display.DozeSettings" />
+         </Preference>
+
         <PreferenceCategory
         android:title="@string/weather_category_title">
 
